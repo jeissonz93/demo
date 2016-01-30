@@ -2,10 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body{
-/*background-color:lightgray;*/
+background-color:#00111a;
+
 background:image-url("wallhaven.jpg");
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 
 }
 h1{
