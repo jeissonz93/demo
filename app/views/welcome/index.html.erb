@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<h1>Demo Page</h1>
+
+<p id="link1"><%= link_to 'Admin site', new_admin_user_session_path%></p>
+
+<p class="invisible"></p><%participant=Participant.find_by(id:'1');%></p>
+
+<div><p class="title">Participant #1</p>
+<p class="bold">First Name:</p><p class="content"><%=participant.first_name%></p>
+<p></p><p class="bold">Last Name: </p><p class="content"><%=participant.last_name%></p>
+<p></p><p class="bold">Mobile Phone: </p><p class="content"><%=participant.mobile_phone%></p>
+<p></p><p class="bold">Home Phone: </p><p class="content"><%=participant.home_phone%></p>
+<p></p><p class="bold">Email: </p><p class="content"><%=participant.e_mail%></p>
+<p></p><p class="bold">Age: </p><p class="content"><%=participant.age%></p>
+<p></p><p class="bold">About: </p><p class="content"><%=participant.about%></p>
+<p></p>
+ 
+ 
+</div>
+	
+</html>1
